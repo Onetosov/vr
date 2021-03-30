@@ -54,7 +54,7 @@ var reload = (message, cmd) => {
 
 bot.on("ready", async () =>{
    console.log("SelfBot Activated!");
-     bot.user.setActivity('Among Us', { type: 'PLAYING'
+     bot.user.setActivity('VRChat', { type: 'PLAYING'
 //       url: "https://open.spotify.com/album/1ubczeMvCrPHbSEjgfu4a7",
 //       type: "LISTENING" 
      });
