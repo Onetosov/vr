@@ -54,12 +54,11 @@ var reload = (message, cmd) => {
 
 bot.on("ready", async () =>{
    console.log("SelfBot Activated!");
-//     bot.user.setActivity("", { //what r u doing here
-//       url: "http://twitch.tv/#",
-//       type: "STREAMING" 
-//     });
+     bot.user.setActivity('Among Us', { type: 'PLAYING'
+//       url: "https://open.spotify.com/album/1ubczeMvCrPHbSEjgfu4a7",
+//       type: "LISTENING" 
+     });
 });
-
 
 
 bot.login(config.token);
